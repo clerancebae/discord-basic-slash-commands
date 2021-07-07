@@ -5,8 +5,6 @@ client.login(set.token);
 client.on("ready", () => {client.user.setPresence({game: {name: `clerance`,type: "LISTENING"},status: "invisible"});});
 const { Slash } = require('discord-slash-commands');
 const slash = new Slash(client);
-const disbut = require('discord-buttons');
-disbut(client);
 client.on("ready", () => {
     console.log("Ready");
     slash.command({
