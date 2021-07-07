@@ -20,8 +20,8 @@ client.on("ready", () => {
 })
 
 client.on("ready", () => {
-  let berk1 = ["3","2","1","4","5","6","7"]
-let clerance2 = berk1[Math.floor(Math.random() * berk1.length)]
+  let berke1 = ["3","2","1","4","5","6","7"]
+let clerance2 = berke1[Math.floor(Math.random() * berke1.length)]
     console.log("Ready");
     slash.command({
         guildOnly: true,
